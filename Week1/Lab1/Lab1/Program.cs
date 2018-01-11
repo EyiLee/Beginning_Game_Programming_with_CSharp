@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Lab1
 {
+    /// <summary>
+    /// A class to print messages
+    /// </summary>
     class Program
     {
         /// <summary>
-        /// Introduction to C#
+        /// Main method to print messages
         /// </summary>
-        /// <param name="args"></param>
+        /// <param name="args">arguments of command line</param>
         static void Main(string[] args) {
             // Problem 1: Output (your name)
             Console.WriteLine("Eyi");

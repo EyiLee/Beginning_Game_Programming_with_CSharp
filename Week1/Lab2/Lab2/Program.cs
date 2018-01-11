@@ -6,22 +6,25 @@ using System.Threading.Tasks;
 
 namespace Lab2
 {
+    /// <summary>
+    /// A class to calculate the percentage of score
+    /// </summary>
     class Program
     {
         /// <summary>
-        /// Variables and Constants
+        /// Main method to calculate the percentage of score
         /// </summary>
-        /// <param name="args"></param>
+        /// <param name="args">arguments of command line</param>
         static void Main(string[] args) {
             // Problem 1: Declaring and Using Variables
-            int Age = 23;
-            Console.WriteLine(Age);
+            int age = 23;
+            Console.WriteLine(age);
 
             // Problem 2: Declaring and Using Constants and Variables
             const int MaxScore = 100;
-            int Score = new Random().Next(0, 100);
-            float Percent = (float)Score / MaxScore;
-            Console.WriteLine(Percent);
+            int score = new Random().Next(0, 100);
+            float percent = (float)score / MaxScore;
+            Console.WriteLine(percent);
         }
     }
 }

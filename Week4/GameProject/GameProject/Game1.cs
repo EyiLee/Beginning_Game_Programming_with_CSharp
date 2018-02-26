@@ -211,8 +211,8 @@ namespace GameProject
         private void SpawnBear()
         {
             // generate random location
-            int x = GetRandomLocation(GameConstants.SpawnBorderSize, GameConstants.WindowWidth - GameConstants.SpawnBorderSize);
-            int y = GetRandomLocation(GameConstants.SpawnBorderSize, GameConstants.WindowHeight - GameConstants.SpawnBorderSize);
+            int x = GetRandomLocation(GameConstants.SpawnBorderSize, GameConstants.WindowWidth - 2 * GameConstants.SpawnBorderSize);
+            int y = GetRandomLocation(GameConstants.SpawnBorderSize, GameConstants.WindowHeight - 2 * GameConstants.SpawnBorderSize);
 
             // generate random speed and angle
             float speed = GameConstants.MinBearSpeed + RandomNumberGenerator.NextFloat(GameConstants.BearSpeedRange);
